@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reycell Service</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background:#0f172a;
+    color:white;
+}
+
+/* NAVBAR */
+nav {
+    position:fixed;
+    width:100%;
+    top:0;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+    z-index:1000;
+}
+
+nav h1 {
+    color:#facc15;
+    font-size:18px;
+}
+
+/* HEADER */
+header {
+    background:linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.9)),
+    url('https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=1200');
+    background-size:cover;
+    background-position:center;
+    padding:120px 20px 100px;
+    text-align:center;
+}
+
+/* LOGO */
+.logo {
+    width:80px;
+    margin-bottom:10px;
+}
+
+/* TITLE */
+header h2 {
+    font-size:34px;
+}
+
+header p {
+    color:#facc15;
+    margin-top:5px;
+}
+
+/* BUTTON */
+.btn {
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#facc15;
+    color:black;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECTION */
+section {
+    padding:60px 20px;
+    text-align:center;
+}
+
+h3 {
+    color:#facc15;
+    margin-bottom:20px;
+}
+
+/* SERVICES */
+.services {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+}
+
+.card {
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* TESTI */
+.testi {
+    background:#1e293b;
+    margin:10px;
+    padding:15px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer {
+    background:#111827;
+    padding:20px;
+}
+
+/* WA */
+.wa {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>Reycell</h1>
+</nav>
+
+<header>
+    <img src="logo.png" class="logo">
+    <h2>Reycell Service</h2>
+    <p>Solusi Cepat & Terpercaya untuk Service HP dan Laptop Anda</p>
+
+    <a href="https://wa.me/628984788476" class="btn">Chat WhatsApp</a>
+
+    <p style="margin-top:10px; font-size:14px;">
+    Respon cepat • Konsultasi gratis
+    </p>
+</header>
+
+<section>
+    <h3>Tentang Kami</h3>
+    <p>
+    Reycell Service hadir sebagai solusi terbaik untuk perbaikan HP Android, Laptop, dan Komputer Anda di Cianjur.
+    Didukung teknisi berpengalaman, kami mengutamakan kecepatan, ketelitian, dan hasil yang memuaskan.
+    Mulai dari kerusakan ringan hingga berat, semua kami tangani dengan profesional dan harga bersahabat.
+    </p>
+
+    <p style="margin-top:10px; color:#facc15;">
+    ✔ Pengerjaan cepat<br>
+    ✔ Bisa ditunggu<br>
+    ✔ Garansi service<br>
+    ✔ Harga transparan
+    </p>
+</section>
+
+<section>
+    <h3>Layanan</h3>
+    <div class="services">
+        <div class="card">🔧 Service HP Android</div>
+        <div class="card">💻 Service Laptop</div>
+        <div class="card">🖥️ Komputer</div>
+        <div class="card">📱 Ganti LCD</div>
+        <div class="card">⚡ Install Windows</div>
+        <div class="card">🚀 Upgrade RAM & SSD</div>
+    </div>
+</section>
+
+<section>
+    <h3>Kenapa Pilih Kami?</h3>
+    <p>
+    ✔ Teknisi berpengalaman<br>
+    ✔ Pengerjaan cepat & rapi<br>
+    ✔ Harga bersahabat<br>
+    ✔ Sudah dipercaya banyak pelanggan
+    </p>
+</section>
+
+<section>
+    <h3>Testimoni</h3>
+    <div class="testi">"HP mati total langsung hidup lagi 🔥"</div>
+    <div class="testi">"Laptop lemot jadi kenceng banget!"</div>
+    <div class="testi">"Pelayanan cepat, recommended!"</div>
+</section>
+
+<section>
+    <h3>Kontak</h3>
+    <p>📍 Cianjur Kota</p>
+    <p>📞 0898-4788-476</p>
+</section>
+
+<footer>
+</footer>
+
+<a href="https://wa.me/628984788476" class="wa">WA</a>
+
+</body>
+</html>
